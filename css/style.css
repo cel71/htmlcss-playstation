@@ -1,3 +1,7 @@
+*{
+    font-weight: bold;
+}
+
 /* <!-- Logo sony e navbar --> */
 
 .logo-sony{
@@ -143,12 +147,65 @@
 
 /* cinque elementi in fila */
 
+.five{
+    margin-top: 50px;
+}
+
 .five-img{
-    width: 100%;
     opacity: 0.6;
+    text-align: center;
+}
+
+.five-img img{
+    max-width: 100%;
+    width: 110px;
+}
+
+.five-img p{
+    margin-top: 12px;
 }
 
 .five-img:hover{
     opacity: 1;
     border-bottom: 2px solid rgb(0, 114, 206)
+}
+
+.five-img .fa-trademark{
+    font-size: 10px;
+    vertical-align: super;
+}
+
+/* <!-- banner it takes two --> */
+
+.banner-takes{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.banner-takes img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.banner-takes h1, .banner-takes p{
+    margin-top: 20px;
+}
+
+.banner-takes p{
+    font-size: 12px;
+}
+
+.banner-takes-button{
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: rgb(205, 61, 15);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 40px;
 }
