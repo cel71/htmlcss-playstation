@@ -1,0 +1,120 @@
+/* <!-- Logo sony e navbar --> */
+
+.logo-sony{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-sony img{
+    width: 80px;
+    padding: 10px 0;
+}
+
+/* navbar */
+
+.nav-link{
+    color: black !important;
+    font-size: 18px;
+}
+
+.fa-angle-down{
+    color: gray;
+    vertical-align: middle;
+    font-size: 10px;
+}
+
+.second-button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    margin-right: 24px;
+}
+
+.nav-item-myplaystation{
+    margin-right: 12px;
+}
+
+/* jumbotron */
+
+.jumbotron{
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.jumbotron img{
+    width: 100%;
+    padding-top: 300px;
+}
+
+.jumbotron h1, .jumbotron p{
+    padding-top: 20px;
+}
+
+.jumbotron-button{
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: rgb(205, 61, 15);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+/* <!-- sei immagini in fila --> */
+
+.six-img{
+    margin-top: 30px;
+}
+
+.six-img-minibox{
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.six-img-minibox:hover{
+    border: 2px solid rgb(0, 114, 206);
+}
+
+.six-img-minibox img{
+    width: 100%;
+}
+
+.six-img-minibox-inner{
+    border-radius: 20px;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+/* testo no limits */
+
+.no-limits{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.no-limits-testo1{
+    color: rgb(0, 114, 206)
+}
+
+.no-limits-testo2{
+    margin-top: 30px;
+    color: rgb(114, 114, 114);
+}
+
+/* <!-- PlayStation grande --> */
+
+.play-thumb{
+    margin-top: 50px;
+}
+
+.play-thumb img{
+    width: 100%;
+}
