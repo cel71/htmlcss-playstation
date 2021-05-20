@@ -182,6 +182,7 @@
     background-size: cover;
     background-position: center;
     color: white;
+    margin-top: 50px;
 }
 
 .banner-takes img{
@@ -209,3 +210,29 @@
     margin-top: 12px;
     margin-bottom: 40px;
 }
+
+/* container grigio */
+
+.container-grigio{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.container-grigio img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.container-grigio h2{
+    margin: 24px 0;
+}
+
+.container-grigio h5{
+    margin-bottom: 24px;
+}
+
+.container-grigio p{
+    margin-bottom: 24px;
+}
+
