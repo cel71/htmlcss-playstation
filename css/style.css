@@ -302,5 +302,138 @@
     width: 100%;
 }
 
+.logo-plus{
+    max-width: 100%;
+    width: 300px;
+    margin-bottom: 24px;
+}
+
+.playstation-plus button{
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color:rgb(217, 218, 220);
+    padding: 10px;
+    border-radius: 22px;
+    color: rgb(45, 100, 230);
+    margin-top: 12px;
+}
+
+/* media query playstation-plus */
+
+@media all and (min-width: 0) and (max-width: 767px){
+    .playstation-plus-immagine-sfondo{
+        display: none;
+    }
+
+    .logo-plus{
+        margin-top: 24px;
+    }
+
+    .playstation-plus button{
+        margin-bottom: 24px;
+    }
+}
+
+/* testo playstation store */
+
+.playstation-store-text{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.playstation-store-text p{
+    margin-top: 24px;
+    color: rgb(114, 114, 114);
+}
+
+/* tre immagini in fila playstation store */
+
+.playstation-store-tre-immagini{
+    margin-top: 40px;
+}
+
+.playstation-store-tre-immagini img{
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+/* banner playstation now */
+
+.playstation-now{
+    background-color: rgb(22, 28, 59);
+    margin-top: 50px;
+    color: white;
+}
+
+.playstation-now img{
+    width: 100%;
+}
+
+.logo-now{
+    max-width: 100%;
+    width: 250px;
+    margin-bottom: 24px;
+}
+
+.playstation-now p{
+    font-size: 12px;
+}
+
+.playstation-now button{
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 22px;
+    color: black;
+    margin-top: 12px;
+}
+
+/* media query playstation-now */
+
+@media all and (min-width: 0) and (max-width: 767px){
+    .playstation-now-immagine-sfondo{
+        display: none;
+    }
+
+    .logo-now{
+        margin-top: 24px;
+    }
+
+    .playstation-now button{
+        margin-bottom: 24px;
+    }
+}
+
+/* social media */
+
+.social-media-text{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* social media icone */
+
+.social-media-icone{
+    margin-top: 50px;
+}
+
+.social-media-icone img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
 
 
