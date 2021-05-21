@@ -427,6 +427,18 @@
     margin-bottom: 40px;
 }
 
+/* footer container */
+
+.footer-container{
+    background-color: rgb(0, 67, 156);
+    margin-top: 50px;
+    color: white;
+}
+
+.footer-container img{
+    max-width: 100%;
+}
+
 
 
 
