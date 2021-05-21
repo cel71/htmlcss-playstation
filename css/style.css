@@ -17,6 +17,12 @@
 
 /* navbar */
 
+/* nav{
+    position: fixed;
+    position: sticky;
+    top: 0;
+} */
+
 .nav-link{
     color: black !important;
     font-size: 18px;
@@ -154,6 +160,7 @@
 .five-img{
     opacity: 0.6;
     text-align: center;
+    border-bottom: 2px solid white;
 }
 
 .five-img img{
@@ -235,4 +242,65 @@
 .container-grigio p{
     margin-bottom: 24px;
 }
+
+.container-grigio .fa-trademark{
+    font-size: 8px;
+    vertical-align: super;
+}
+
+/* <!-- playstation 4 titolo e testo centrale --> */
+
+.playstation4-text{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.playstation4-text .fa-registered{
+    font-size: 12px;
+    vertical-align: super;
+}
+
+.playstation4-text p{
+    margin-top: 24px;
+    color: rgb(114, 114, 114);
+}
+
+/* device playstation 4 */
+
+.playstation4{
+    margin-top: 40px;
+}
+
+.playstation4 img{
+    width: 100%;
+}
+
+.playstation4 button{
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: rgb(45, 100, 230);
+    padding: 10px;
+    border-radius: 22px;
+    color: white;
+    margin-top: 12px;
+}
+
+.playstation4 p{
+    color: rgb(114, 114, 114);
+}
+
+/* playstation plus */
+
+.playstation-plus{
+    background-color: rgb(190, 188, 187);
+    margin-top: 60px;
+}
+
+.playstation-plus img{
+    width: 100%;
+}
+
+
 
