@@ -439,6 +439,56 @@
     max-width: 100%;
 }
 
+/* parte iniziale loghi */
+
+.logops-bianco{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.globo{
+    width: 18px;
+    margin-right: 8px;
+}
+
+.globo-text{
+    font-size: 12px;
+}
+
+/* parte centrale link */
+
+.footer-container ul{
+    list-style: none;
+    margin-top: 60px;
+}
+
+.footer-container li{
+    margin-bottom: 12px;
+}
+
+.footer-container li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* parte finale disclaimer */
+
+.sie-logo{
+    width: 140px;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.sie-logo-text{
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.sie-logo-text-link{
+    text-decoration: underline;
+}
+
 
 
 
