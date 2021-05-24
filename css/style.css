@@ -38,6 +38,10 @@
     font-size: 15px;
 }
 
+.nav-link:hover{
+    color: rgb(0, 114, 206) !important;
+}
+
 .play-logo-blue{
     margin-right: 10px;
 }
@@ -48,7 +52,11 @@
     font-size: 10px;
 }
 
-.second-button{
+.fa-angle-down:hover{
+    color: rgb(0, 114, 206) !important;
+}
+
+.second-button-accedi{
     border: none;
     margin: 0;
     padding: 0;
@@ -58,6 +66,10 @@
     padding: 10px;
     border-radius: 25px;
     margin-right: 24px;
+}
+
+.second-button-accedi:hover{
+    background-color: rgb(114, 114, 114);
 }
 
 .nav-item-myplaystation{
@@ -97,6 +109,10 @@
     color: white;
     margin-top: 12px;
     margin-bottom: 40px;
+}
+
+.jumbotron-button:hover{
+    background-color: orange;
 }
 
 /* <!-- sei immagini in fila --> */
@@ -169,6 +185,10 @@
     margin-bottom: 40px;
 }
 
+.play-thumb button:hover{
+    background-color: blue;
+}
+
 /* cinque elementi in fila */
 
 .five{
@@ -234,6 +254,10 @@
     color: white;
     margin-top: 12px;
     margin-bottom: 40px;
+}
+
+.banner-takes-button:hover{
+    background-color: orange;
 }
 
 /* container grigio */
@@ -317,6 +341,10 @@
     margin-top: 12px;
 }
 
+.playstation4 button:hover{
+    background-color: blue;
+}
+
 .playstation4 p{
     color: rgb(114, 114, 114);
 }
@@ -348,6 +376,10 @@
     border-radius: 22px;
     color: rgb(45, 100, 230);
     margin-top: 12px;
+}
+
+.playstation-plus button:hover{
+    background-color: white;
 }
 
 /* media query playstation-plus */
@@ -425,6 +457,10 @@
     border-radius: 22px;
     color: black;
     margin-top: 12px;
+}
+
+.playstation-now button:hover{
+    background-color: lightgray;
 }
 
 /* media query playstation-now */
