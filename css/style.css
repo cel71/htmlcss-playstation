@@ -98,6 +98,10 @@
     padding-top: 20px;
 }
 
+.jumbotron p{
+    font-size: 15px;
+}
+
 .jumbotron-button{
     border: none;
     margin: 0;
@@ -281,11 +285,7 @@
     margin: 24px 0;
 }
 
-.container-grigio h5{
-    margin-bottom: 24px;
-}
-
-.container-grigio p{
+.container-grigio h5, p{
     margin-bottom: 24px;
 }
 
